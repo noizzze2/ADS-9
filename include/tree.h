@@ -53,7 +53,8 @@ class PMTree {
   }
 
  public:
-  explicit PMTree(const std::vector<char>& input) : root(nullptr), permCount(0) {
+  explicit PMTree(const std::vector<char>& input)
+      : root(nullptr), permCount(0) {
     if (input.empty()) return;
     std::vector<char> sorted = input;
     for (size_t i = 0; i < sorted.size() - 1; i++) {
