@@ -1,4 +1,5 @@
 // Copyright 2022 NNTU-CS
+#include <vector>
 #include "tree.h"
 
 std::vector<std::vector<char>> getAllPerms(PMTree& tree) {
